@@ -1,0 +1,26 @@
+{
+  "name": "cs-foundations",
+  "version": "1.0.0",
+  "description": "Computer Science Basics",
+  "homepage": "https://github.com/JavedanCode/cs-foundations#readme",
+  "bugs": {
+    "url": "https://github.com/JavedanCode/cs-foundations/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavedanCode/cs-foundations.git"
+  },
+  "license": "MIT",
+  "author": "JavedanCode",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch*.js",
+    "watchAll": "jest --watchAll"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.2",
+    "jest": "^30.3.0"
+  }
+}
